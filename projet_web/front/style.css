@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white
+}
+body{
+
+    background-color: rgb(67, 175, 90);
+    background-image: url(images/aXhmCM.jpg);
+}
+header {
+    
+   padding:10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(32, 32, 32);
+   box-shadow: 0px -8px 15px 5px black;
+   font-size: 20px;
+  
+}
+header div{
+    font-size: 50px;
+}
+
+.link li{
+    display: inline;
+    padding: 0px 40px 0px 80px;
+    font-size: 30PX;
+}
+.logo {
+
+    padding: 0 0 0 20px;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0px 10px 10px 0px black;
+    width: 30vw;
+    
+}
+form label {
+   
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    display: inline;
+}
+form input {
+
+    height: 50px;
+    width: 100%;
+    color:black;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.welcom{
+    padding: 50px 0;
+    font-size: 80px;
+    
+    
+    
+}
+
+.body1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(23, 235, 69);
+}
+form button {
+
+   
+    background-color:  rgb(3, 122, 29); 
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+button:hover{
+
+    cursor: pointer;
+    background-color:  rgb(20, 216, 62);
+    color: rgb(32, 32, 32);
+} 
+a:hover {
+
+    color:rgb(28, 255, 77);
+    cursor: pointer;
+
+}
+
+ul li:hover{
+   border-radius: 50px;
+   background-color:  rgb(75, 73, 73);;
+}
+
+label {
+  
+    display: inline;
+   
+}
+

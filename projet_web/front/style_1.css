@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white
+}
+body{
+
+    background-color: rgb(67, 175, 90);
+    background-image: url(images/aXhmCM.jpg);
+}
+header {
+    
+   padding:10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(32, 32, 32);
+   box-shadow: 0px -8px 15px 5px black;
+   font-size: 20px;
+   margin: 0px;
+  
+}
+header div{
+    font-size: 50px;
+}
+.link li{
+    display: inline;
+    padding: 0px 40px 0px 80px;
+    font-size: 30PX;
+}
+.logo {
+
+    padding: 0 0 0 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(23, 235, 69);
+}
+a:hover {
+
+    color:rgb(28, 255, 77);
+    cursor: pointer;
+
+}
+
+ul li:hover{
+   border-radius: 50px;
+   background-color:  rgb(75, 73, 73);;
+}
+.center{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+form {
+
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 50px 50px  10px 50px;
+    align-items: center;
+    margin: 0;
+    box-shadow: 0px 10px 10px 0px black;
+    
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+    
+}
+form input {
+
+    display: none;
+}
+
+#btn{
+    
+    width: 70%;
+    text-align: center;
+    margin: 20px;
+    background-color:  rgb(3, 122, 29); 
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+
+#btn:hover{
+    
+    
+    
+    background-color:  rgb(3, 170, 39); 
+    color: black;
+    cursor: pointer;
+    
+}
+
+form button {
+    background-color:  rgb(3, 122, 29); 
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    align-self: flex-end;
+    margin-top: 30px;
+    margin-right: -40px;
+}
+button:hover{
+    cursor: pointer;
+    background-color:  rgb(20, 216, 62);
+    color: rgb(32, 32, 32);
+} 
+.welcom{
+    padding-bottom: 20px;
+    font-size: 80px;
+    margin-top: 0px;
+    
+}
